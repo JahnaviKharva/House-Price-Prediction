@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <div>
+        <h1>House Price Prediction</h1>
+        <form method="POST" action="{{ url_for('index') }}">
+            {{ form.hidden_tag() }}
+            <p>{{ form.bedrooms.label }}: {{ form.bedrooms(size=20) }}</p>
+            <p>{{ form.bathrooms.label }}: {{ form.bathrooms(size=20) }}</p>
+            <p>{{ form.sqft_living.label }}: {{ form.sqft_living(size=20) }}</p>
+            <p>{{ form.location.label }}: {{ form.location(size=20) }}</p>
+            <p>{{ form.submit() }}</p>
+        </form>
+    </div>
+</body>
+</html>
