@@ -25,22 +25,17 @@ Python 3.x
 pip (Python package installer)
 Steps
 Clone this repository:
-
-
-git clone https://github.com/your-username/house-price-prediction.git
+git clone [https://github.com/your-username/house-price-prediction.git](https://github.com/JahnaviKharva/House-Price-Prediction)
 cd house-price-prediction
+
 Create a virtual environment and activate it:
-
-
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
 Install the required dependencies:
-
-
 pip install -r requirements.txt
+
 Run the Flask application:
-
-
 flask run
 Open your browser and go to http://127.0.0.1:5000/.
 
