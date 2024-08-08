@@ -43,30 +43,8 @@ Usage
 Enter the house features: Fill in the form with the house details such as area, number of bedrooms, bathrooms, etc.
 Get the prediction: Click the submit button to get the predicted price of the house.
 View the result: The predicted price will be displayed on the result page.
-File Structure
 
-house-price-prediction/
-│
-├── app/
-│   ├── __init__.py           # Flask app initialization
-│   ├── routes.py             # Application routes
-│   └── templates/
-│       ├── index.html        # Home page template
-│       └── result.html       # Result page template
-│
-├── dataset/
-│   └── Housing.csv           # Dataset used for training the model
-│
-├── model/
-│   └── house_price_model.pkl # Trained model file
-│
-├── venv/                     # Virtual environment files
-│
-├── train_model.ipynb         # Jupyter notebook for model training
-├── requirements.txt          # Python dependencies
-├── app.py                    # Entry point for Flask application
-├── README.md                 # This readme file
-└── .gitignore                # Git ignore file
+
 Model Training
 Load the dataset: The dataset is stored in the dataset/Housing.csv file.
 Preprocess the data: Categorical variables are encoded, and other necessary preprocessing steps are applied.
