@@ -26,25 +26,21 @@ pip (Python package installer)
 Steps
 Clone this repository:
 
-bash
-Copy code
+
 git clone https://github.com/your-username/house-price-prediction.git
 cd house-price-prediction
 Create a virtual environment and activate it:
 
-bash
-Copy code
+
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install the required dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Run the Flask application:
 
-bash
-Copy code
+
 flask run
 Open your browser and go to http://127.0.0.1:5000/.
 
@@ -53,8 +49,7 @@ Enter the house features: Fill in the form with the house details such as area, 
 Get the prediction: Click the submit button to get the predicted price of the house.
 View the result: The predicted price will be displayed on the result page.
 File Structure
-bash
-Copy code
+
 house-price-prediction/
 │
 ├── app/
@@ -96,8 +91,7 @@ Create a new Heroku app.
 
 Push the repository to Heroku:
 
-bash
-Copy code
+
 git push heroku main
 Open the deployed application in your browser.
 
