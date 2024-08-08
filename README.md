@@ -25,7 +25,7 @@ Python 3.x
 pip (Python package installer)
 Steps
 Clone this repository:
-git clone [https://github.com/your-username/house-price-prediction.git](https://github.com/JahnaviKharva/House-Price-Prediction)
+git clone https://github.com/JahnaviKharva/House-Price-Prediction
 cd house-price-prediction
 
 Create a virtual environment and activate it:
