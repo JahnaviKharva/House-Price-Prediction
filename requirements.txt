@@ -2,3 +2,4 @@ Flask
 Flask-WTF
 pandas
 scikit-learn
+gunicorn
