@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open('C:\\Users\\Jahnavi Kharva\\house_price_prediction\\model\\house_price_model.pkl', 'rb') as f:
+with open('house_price_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 @app.route('/')
